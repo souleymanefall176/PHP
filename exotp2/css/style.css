@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container{
+    width: 85%;
+    height: 90vh;
+    border: 5px solid brown;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    padding: 10px;
+    transform: translateX(6%);
+}
+img{
+    width: 150px;
+}
+.img{
+    
+    display: flex;
+    align-items: flex-end;
+    transform: translateX(-80%);
+}
+h4{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
